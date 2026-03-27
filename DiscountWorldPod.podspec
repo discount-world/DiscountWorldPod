@@ -43,20 +43,19 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DiscountWorldPod'
-  s.version          = '0.0.1'
-  s.summary          = 'Reusable SDK for DiscountWorld project'
+  s.version          = '1.0.4'
+  s.summary          = 'Reusable SDK for DiscountWorld Discovery project'
   s.description      = 'Shared business logic and reusable components.'
 
-  s.homepage         = 'https://github.com/yourname/DiscountWorldPod'
+  s.homepage         = 'https://github.com/discount-world/DiscountWorldPod'
   s.license          = { :type => 'MIT' }
-  s.author           = { 'Asad' => 'your@email.com' }
 
   s.platform         = :ios, '16.0'
   s.ios.deployment_target = '16.0'
   s.swift_version    = '5.0'
 
   s.source           = {
-    :git => 'https://github.com/yourname/DiscountWorldPod.git',
+    :git => 'https://github.com/discount-world/DiscountWorldPod.git',
     :tag => s.version
   }
 
