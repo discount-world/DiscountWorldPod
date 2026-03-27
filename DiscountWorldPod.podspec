@@ -49,6 +49,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/discount-world/DiscountWorldPod'
   s.license          = { :type => 'MIT' }
+  s.author           = { 'DiscountWorld' => 'it.dwtech@gmail.com' }
 
   s.platform         = :ios, '16.0'
   s.ios.deployment_target = '16.0'
